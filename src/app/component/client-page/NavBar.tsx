@@ -103,10 +103,10 @@ export const NavBar = () => {
           priority
         />
         <div className="flex flex-col">
-          <h2 className="font-bold text-xl mb-0.5">
+          <h2 className="font-bold text-xl mb-0.5 text-white">
             Geo
           </h2>
-          <h2 className="font-bold text-xl pl-1.5 pb-6 -mt-2">
+          <h2 className="font-bold text-xl pl-1.5 pb-6 -mt-2 text-white">
             Market
           </h2>
         </div>
@@ -136,11 +136,11 @@ export const NavBar = () => {
             placeholder="Pesquise aqui"
             className="form-control pl-5 pr-4 py-2 w-80 rounded-full"
           />
-          <HiMagnifyingGlass className="absolute right-3 top-1/2 transform -translate-y-1/2 w-6 h-6 text-gray-500" />
+          <HiMagnifyingGlass className="absolute right-3 top-1/2 transform -translate-y-1/2 w-6 h-6 text-gray-500 " />
         </div>
         <nav className="w-56 h-10 flex items-center">
           <div className="w-1/4">
-            <VscAccount className="w-7 h-7"/>
+            <VscAccount className="w-7 h-7 text-white"/>
           </div>
           <div className="w-3/4">
             <p className="text-white font-bold">Bem-vindo!</p>
@@ -148,7 +148,7 @@ export const NavBar = () => {
           </div>
         </nav>
         <div className="relative" onMouseEnter={() => hoverEnterHandler("hamburger")} onMouseLeave={hoverExitHandler}>
-          <RxHamburgerMenu className="w-10 h-10 -ml-"/>
+          <RxHamburgerMenu className="w-10 h-10 -ml- text-white"/>
           {showHamburger && <MenuHide itens={hamburgerList} icons={iconsList} positionRight="-right-10" hamburgerCss="flex gap-3 pl-0"/>}
         </div>
         <Link className="relative" href="/cart">
