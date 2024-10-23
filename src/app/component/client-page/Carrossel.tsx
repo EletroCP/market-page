@@ -33,7 +33,7 @@ export default function Carrossel() {
 
   return (
     <div 
-      className="relative flex bg-red-500 w-50 h-72 overflow-hidden"
+      className="relative flex bg-red-500 w-50 h-96 overflow-hidden"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
