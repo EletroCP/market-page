@@ -1,6 +1,6 @@
 export default function About() {
   return(
-    <div className="text-center w-3/4 mx-auto flex items-center justify-center flex-wrap">
+    <div className="text-center w-2/4 mx-auto flex items-center justify-center flex-wrap pb-8">
       <h1 className="text-xl font-bold">O que é topográfia</h1>
       <p>
         A topografia é a ciência que estuda e descreve as características da superfície terrestre,
