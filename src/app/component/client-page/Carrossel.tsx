@@ -37,7 +37,7 @@ export default function Carrossel() {
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
     >
-      <hr className="border-orange-500 border-2 absolute z-40 w-full shadow-md shadow-sky" />
+      <hr className="border-sky-800 border-2 absolute z-40 w-full shadow-md shadow-sky" />
       <IoMdArrowDropleftCircle 
         onClick={prevImage} 
         className="absolute z-20 left-0 top-1/2 transform -translate-y-1/2 ml-5 w-14 h-14 opacity-40 cursor-pointer hover:opacity-100 transition-opacity duration-300" 
