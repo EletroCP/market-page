@@ -75,7 +75,6 @@ export const NavBar = () => {
     { label: "Saldão", href: 'products/saldo' }
   ];
   
-
   const hoverEnterHandler = (component: string) => {
     if(component === "products") setShowProducts(true);
     else if (component === "services") setShowServices(true);
